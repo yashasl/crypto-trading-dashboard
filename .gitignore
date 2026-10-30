@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+*.pth
+
+# Backend SQLite
+backend/*.db
+backend/*.sqlite
+
+# Environment variables (security — never commit Binance keys)
+.env
+.env.local
+.env.*.local
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.next/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Temporary / uploads
+uploads/
+*.tmp
+/tmp/
+
+# Build artifacts
+run.log
+run.pid
+
+# Testing
+.pytest_cache/
+.mypy_cache/
